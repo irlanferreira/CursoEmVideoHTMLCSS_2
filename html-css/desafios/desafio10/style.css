@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype");
+}
+@font-face {
+    font-family: "Righteous";
+    src: url("fontes/Righteous-Regular.ttf");
+}
+body {
+    font-family: Arial, verdana, sans-serif;
+    background-color: #a4ffcd;
+}
+header {
+    background-image: linear-gradient(to top, #185333, #3DDA84);
+    margin-top: -8px;
+    margin: -8px -8px 0px -8px;
+    padding: 15px 10px;
+}
+header > nav > a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+header > nav > a:hover {
+    color: #185333;
+    background-color: #3DDA84;
+    border-radius: 5px;
+}
+section {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+
+    background-color: white;
+
+    border-radius: 6px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.445);
+    
+}
+section.video {
+    background-color: #185333;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+iframe {
+    border-radius: 8px;
+}
+header > div > h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+    font-family: "righteous";
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+}
+header > div > p {
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.719);
+}
+nav {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+   
+h1 {
+    font-family: "android", cursive;
+    color: #185333;
+    font-size: 1.6em;
+}
+
+h2 {
+    font-family: android, cursive;
+    color: #185333;
+    background-image: linear-gradient(to right, #b5f5d3, rgba(255, 255, 255, 0) 70%);
+    text-indent: 10px;
+}
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
+p > a {
+    background-color: #79e2aa;
+    color: #185333;
+    text-decoration: none;
+}
+p > a::after {
+    content: "🔗";
+}
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+article#aprendermais {
+    background-color: #d0fae4;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.384);
+}
+footer {
+    background-color: #185333;
+
+    margin: 20px -8px -15px -8px;
+
+    padding: 1px;
+}
+footer > p {
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
