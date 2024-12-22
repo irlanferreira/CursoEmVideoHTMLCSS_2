@@ -1,0 +1,13 @@
+@import url("style.css");
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+nav{
+    display: none;
+}
+article::after{
+    content: 'Goku';
+}
