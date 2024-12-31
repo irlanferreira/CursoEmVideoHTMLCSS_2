@@ -1,0 +1,17 @@
+@media screen and (max-width:562px){
+    header{
+        flex-flow: column nowrap;
+    }
+    div#titulo{
+        flex-basis: auto;
+        h1{
+            text-align: center;
+        }
+    }
+    div#opcoes{
+        flex-flow: column nowrap;
+    }
+    div#opcoes a{
+        margin: 3px 0px;
+    }
+}
